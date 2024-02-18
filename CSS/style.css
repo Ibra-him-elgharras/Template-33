@@ -34,6 +34,7 @@ body{
 .container{
     max-width: 300px;
     width: 280px;
+    height: 350px;
     background: #CCDBDC;
     padding: 30px 15px;
     border-radius: 6px;
@@ -43,8 +44,8 @@ body{
 /* form */
 
 .container form{
-    background: red;
     width: 100%;
+    min-height: 300px;
 }
 
 /* form- div */
@@ -53,7 +54,7 @@ body{
     width: 100%;
     height: 40px;
     border-radius: 25px;
-    background: yellow;
+
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -82,7 +83,7 @@ body{
     border-radius: 25px;
     outline: none;
     color: #70798C;
-    background: #CCDBDC;
+    background: #F2F4F3;
     border: none;
     position: absolute;
 }
@@ -99,8 +100,17 @@ body{
 
 /* form- a */
 
- .container form a{
-    
+ .container form .box-4 a{
+    text-decoration: none;
+    color: #0AC2FF;
+    padding-left: 12px;
+    position: absolute;
+    top: 0;
+ }
+
+ .container form .box-6 a{
+    text-decoration: none;
+    color: #0AC2FF;
  }
 
  /* form-box-5 submit*/
@@ -111,8 +121,17 @@ body{
     height: 100%;
     border-radius: 25px;
     color: #70798C;
+    background: #F2F4F3;
     border: none;
     font-size: 18px;
     font-weight: 600;
     text-align: center;
+}
+
+ /* form-box-6 */
+
+.container form .box-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
